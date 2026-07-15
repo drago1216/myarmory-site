@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My Armory — Private Gun Inventory</title>
+<meta name="description" content="My Armory is a private inventory and recordkeeping app for collectors. Everything stays encrypted on your device — no accounts, no servers, no analytics.">
+<style>
+  :root {
+    --gunmetal: #121417;
+    --gunmetal-elevated: #1c2025;
+    --steel: #8fa3b8;
+    --brass: #c9a227;
+    --brass-pale: #e7d392;
+    --text: #e8eaed;
+    --text-dim: #9aa3ac;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--gunmetal);
+    color: var(--text);
+    font-family: Georgia, 'Times New Roman', serif;
+    line-height: 1.6;
+  }
+  .wrap { max-width: 680px; margin: 0 auto; padding: 48px 24px; }
+  .dial {
+    width: 88px; height: 88px; margin: 24px auto 8px;
+    display: block;
+  }
+  h1 {
+    text-align: center;
+    font-size: 2.6rem;
+    letter-spacing: 0.5px;
+    margin-top: 8px;
+  }
+  .tagline {
+    text-align: center;
+    color: var(--brass);
+    font-variant: small-caps;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+  }
+  p.lead {
+    font-size: 1.15rem;
+    color: var(--text);
+    margin-bottom: 28px;
+  }
+  .card {
+    background: var(--gunmetal-elevated);
+    border: 1px solid #2a3037;
+    border-radius: 14px;
+    padding: 22px 24px;
+    margin-bottom: 18px;
+  }
+  .card h2 {
+    font-size: 0.85rem;
+    font-family: Verdana, Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--brass);
+    margin-bottom: 10px;
+  }
+  .card p { color: var(--text-dim); font-family: Verdana, Arial, sans-serif; font-size: 0.95rem; }
+  a { color: var(--brass-pale); }
+  footer {
+    margin-top: 48px;
+    text-align: center;
+    color: var(--text-dim);
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 0.85rem;
+  }
+  footer a { margin: 0 10px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <svg class="dial" viewBox="0 0 108 108" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <circle cx="54" cy="54" r="24" fill="none" stroke="#c9a227" stroke-width="4"/>
+    <circle cx="54" cy="54" r="7" fill="#8fa3b8"/>
+    <line x1="54" y1="30" x2="54" y2="40" stroke="#8fa3b8" stroke-width="4" stroke-linecap="round"/>
+    <line x1="54" y1="68" x2="54" y2="78" stroke="#8fa3b8" stroke-width="4" stroke-linecap="round"/>
+    <line x1="30" y1="54" x2="40" y2="54" stroke="#8fa3b8" stroke-width="4" stroke-linecap="round"/>
+    <line x1="68" y1="54" x2="78" y2="54" stroke="#8fa3b8" stroke-width="4" stroke-linecap="round"/>
+  </svg>
+  <h1>My Armory</h1>
+  <div class="tagline">private gun inventory</div>
+
+  <p class="lead">
+    A private inventory and recordkeeping app for firearms, ammunition,
+    optics, and gear. Everything is stored in an encrypted database on your
+    device — no accounts, no servers, no analytics. We couldn't see your
+    collection if we wanted to.
+  </p>
+
+  <div class="card">
+    <h2>Organize</h2>
+    <p>Six item types with the fields collectors actually use, custom fields,
+    storage locations with visual shelf layouts, collections, encrypted
+    photos, and a document vault for receipts and tax stamps.</p>
+  </div>
+  <div class="card">
+    <h2>Track</h2>
+    <p>Round counters with automatic ammo draw-down and low-stock alerts,
+    maintenance logs with cleaning reminders, range trips, named equipment
+    setups, and a value &amp; usage dashboard.</p>
+  </div>
+  <div class="card">
+    <h2>Protect</h2>
+    <p>Optional passphrase protection with real encryption and no recovery
+    backdoor, biometric unlock, automatic locking, and encrypted backups
+    that only ever go where you send them.</p>
+  </div>
+
+  <footer>
+    <a href="privacy.html">Privacy policy</a>
+    <a href="mailto:drago1216@gmail.com">Support</a>
+    <p style="margin-top:14px">My Armory is a personal recordkeeping tool, not legal advice.</p>
+  </footer>
+</div>
+</body>
+</html>
