@@ -64,12 +64,17 @@
   anyone, including us.</p>
 
   <h2>Network access</h2>
-  <p>None. The app does not request the INTERNET permission, so it cannot make
-  network connections of any kind. When you back up, the encrypted file is
-  written on your device and you decide what happens next — save it, or send it
-  to Drive, email, or your computer through Android's share sheet. In that case
-  the app you choose does the sending, under your own account, and the file is
-  already encrypted before it leaves.</p>
+  <p>My Armory has no network code of its own and no servers to talk to:
+  nothing you enter is ever transmitted, and the developer receives nothing.
+  The Google Play Billing library that sells the Pro upgrade brings along a
+  Google component which declares the INTERNET permission; that belongs to
+  Google Play, not to us, and it carries none of your collection data. (The
+  non-Play build of the app requests no INTERNET permission at all.) When you
+  back up, the encrypted file is written on your device and you choose what
+  happens next — save it, or send it to Drive, email, or your computer through
+  Android's share sheet. In that case the app you choose does the sending,
+  under your own account, and the file is already encrypted before it
+  leaves.</p>
 
   <h2>Exports and sharing</h2>
   <p>PDF and CSV exports, backups, and transfer sheets are created on-device
